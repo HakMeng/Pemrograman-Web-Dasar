@@ -13,5 +13,9 @@ graph TD;
     C --> J[No Code/Low Code: Metode menggunakan alat drag-and-drop yang menghindari metode penulisan kode tradisional oleh pengembang. Membantu pengembang untuk menciptakan solusi bagi bisnis dengan cepat dan efisien];
     C --> K[Chatbots & AI: Alih-alih mengerjakan kode bangunan untuk setiap fitur, chatbot dan AI menawarkan kode otomatis untuk setiap persyaratan];
     C --> L[Aksesibilitas Offline: Mengakses konten dari browser bahkan saat internet tidak terhubung. Beberapa teknologi dan teknik yang memungkinkan aksesibilitas offline adalah penyimpanan sementara aplikasi, pekerja layanan, PWA, dan sinkronisasi data lokal];
-    D --> M[Kelebihan: Menjaga kelancaran antarmuka pengguna, Membantu mengoptimalkan performa aplikasi, Menjaga kelancaran antarmuka pengguna];
-    D --> N[Kekurangan: Risiko keamanan lebih tinggi, Kurang skalabel, Kustomisasi terbatas];
+    J --> M[Sumber: geeksforgeeks.org];
+    K --> M;
+    L --> M;
+    D --> N[Kelebihan: Menjaga kelancaran antarmuka pengguna, Membantu mengoptimalkan performa aplikasi, Menjaga kelancaran antarmuka pengguna];
+    D --> O[Kekurangan: Risiko keamanan lebih tinggi, Kurang skalabel, Kustomisasi terbatas];
+    E --> P[Facebook, Google, Netflix, Spotify, Instagram, dll]
