@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang ="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0">
+        <title> Latihan 1 - HTML5</title>
+    </head>
+    <body>
+        <header>
+            <h1>Selamat Datang</h1>
+            <p>Belajar elemen semantik HTML5</p>
+        </header>
+        <!-- bagian untuk latihan selanjutnya -->
+         <nav>
+            <a href="#tentang">Tentang</a> |
+            <a href="#kursus">Kursus</a> |
+            <a href="#kontak">Kontak</a> |
+            <a href="#pendaftaran">Pendaftaran Siswa</a> |
+         </nav>
+         <section id="tentang">
+            <h2>Tentang Halaman Ini</h2>
+            <p>Ini merupakan section untuk menu Tentang</p>
+         </section>
+         <section id="kursus">
+            <h2>Daftar Kursus</h2>
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Nama Kursus</th>
+                    <th>Durasi</th>
+                </tr>
+                <tr>
+                    <td>1</th>
+                    <td>Dasar HTML & CSS</th>
+                    <td>4 Minggu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>JavaScript Fundamental</td>
+                    <td>6 Minggu</td>
+                </tr>
+            </table>
+         </section>
+         <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <form action="/action_page.php">
+                <p>Nama <input type="text" id="nama" name="nama"> </p>
+                <p>Email <input type="email" id="email" name="email"> </p>
+                <p>Pesan <br>
+                <textarea style="height:100px; width:175px;"></textarea> </p>
+                <input type="submit" value="Kirim">                
+            </form>
+         </section>
+         <section id="pendaftaran">
+            <h2>Pendaftaran Siswa Baru</h2>
+                <p>Nama: <br>
+                    <input type="text" id="nama" name="nama">
+                </p>
+                <p>Email: <br>
+                    <input type="email" id="email" name="email">
+                </p>
+                <p>Tanggal Lahir: <br>
+                    <input type="date" id="tgllahir" name="tgllahir">
+                </p>
+                <p>No. HP: <br>
+                    <input type="text" id="nohp" name="nohp">
+                </p>
+                <p>Asal Sekolah: <br>
+                    <input type="text" id="asal" name="asal">
+                </p>
+                <p>Nomor Induk Siswa Nasional: <br>
+                    <input type="text" id="nisn" name="nisn">
+                </p>
+                <p>Prodi: <br>
+                    <input type="radio" id="sti" name="prodi" value="sti">
+                    <label for="sti">STI </label> <br>
+                    <input type="radio" id="bd" name="prodi" value="bd">
+                    <label for="bd">BD </label> <br>
+                    <input type="radio" id="kwu" name="prodi" value="kwu">
+                    <label for="kwu">KWU </label> <br>
+                </p>
+                <p>Kelas: <br>
+                    <input type="radio" id="pagi" name="kelas" value="pagi">
+                    <label for="pagi">Pagi</label> <br>
+                    <input type="radio" id="malam" name="kelas" value="malam">
+                    <label for="malam">Malam</label> <br>
+                </p>
+                <p>Dari mana mendengar tentang kami? <br>
+                    <input type="checkbox" id="sosmed" name="source" value="sosmed">
+                    <label for="sosmed">Sosial Media</label> <br>
+                    <input type="checkbox" id="keluarga" name="source" value="keluarga">
+                    <label for="keluarga">Keluarga</label> <br>
+                    <input type="checkbox" id="teman" name="source" value="teman">
+                    <label for="teman">Teman</label> <br>
+                    <input type="checkbox" id="lain" name="source" value="lain">
+                    <label for="lain">Sumber Lain</label> <br>
+                </p>
+                <p>Mengapa memilih kami? <br>
+                    <textarea style="height:50px; width:250px;"></textarea>
+                </p>
+                <input type="submit" value="Kirim">
+     </section>
+         <footer> 
+            <p>&copy; 2025 oleh Lim Hak Meng. </p>
+        </footer>
+    </body>
+</html>
