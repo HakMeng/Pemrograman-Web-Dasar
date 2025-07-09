@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Latihan Javascript</title>
+    <style>    </style>
+    </head>
+    <body>
+        <input type="text" id="nama" onkeyup="tampilDataDiv()">
+        <button type="button" onclick="stefany()" id="btn_tampil">Tampil</button>
+        <div id="tampil_data"></div>
+        <br><br>
+        <button value="pink" type="button" onclick="ubahWarnaButton(this.value)">pink</button>
+        <button value="orange" type="button" onclick="ubahWarnaButton(this.value)">orange</button>
+        <button value="yellow" type="button" onclick="ubahWarnaButton(this.value)">yellow</button>
+        <button value="aqua" type="button" onclick="ubahWarnaButton(this.value)">aqua</button>
+        <br><br>
+        <input type="checkbox" id="checkbox_1" onclick="munculButton(this.checked)"> munculkan button
+        <br>
+        <button type="button" id="btn_tambahan" style="display:none">baru muncul</button>
+    </body>
+    <script>
+        function stefany()
+        {
+            var nm = document.getElementById("nama").value;
+            alert("Hello, "+nm);
+        }
+
+
+        function ubahWarnaButton(warna)
+        {
+            document.getElementById("btn_tampil").style.backgroundColor = warna;
+        }    
+        function tampilDataDiv()
+        {
+            var data = document.getElementById("nama").value;
+            document.getElementById("tampil_data").innerHTML = data;
+        }
+        function munculButton(status)
+        {
+            if(status == true){
+            document.getElementById("btn_tambahan").style.display = "inline";
+             } else {
+                document.getElementById("btn_tambahan").style.display = "none";
+            }
+        }
+    </script>
+</html>
+
